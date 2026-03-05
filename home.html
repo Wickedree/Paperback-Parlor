@@ -1,0 +1,347 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Paperback Parlor</title>
+</head>
+<style>
+     body {
+	 background-color: White;
+	 margin: 0;
+	 padding: 0;
+	 }
+	 
+     #header {
+	     background-color: Teal;
+		 height: 45px;
+		 overflow: hidden;
+	     #logo {
+		     float: left;
+			 width: 90px;
+			 height: 35px;
+			 margin-top: 5px;
+			 margin-bottom: 5px;
+			 margin-left: 45px;
+		 }
+		 
+		 #menu {
+		 padding-left: 490px;
+		 position: absolute;
+		 
+	     a:hover {
+	         color: #b78160;
+	     }
+	 
+	     ul {
+	         list-style-type: none;
+		     overflow: hidden;
+		 }
+		 
+	     ul li {
+		     font-family: "Bebas Neue", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+			 display: inline;
+	     }
+		 
+	     ul li a {
+		     text-decoration: none;
+		     text-align: center;
+		     padding: 14px 16px;
+		     color: white;
+			 cursor: pointer;
+	     }
+		 }
+ 
+		 #icons {
+		     height: 45px;
+		     margin-right: 45px;
+		     margin-top: 0;
+		     float: right;
+			 display: flex;
+             justify-content: center;
+             align-items: center;
+
+		 ul {
+	         list-style-type: none;
+		     overflow: hidden;
+			 }
+			 
+		 ul li {
+		 display: inline;
+		 padding: 15px 15px;
+		 }
+			 
+		 img {
+		     width: 22px;
+			 height: 22px;
+		     }
+		 
+		 }
+	 }
+	 
+	 #cover {
+	     position: relativa;
+	     img {
+		 width: 100%;
+		 }
+	 }
+	 
+	 #clickbuy {
+	 position: absolute;
+	 top: 22%;
+	 left: 69%;
+	 width: 220px;
+	 text-align: center;
+	 padding: 50px 50px 70px 50px;
+	 background-color: teal;
+	 border-radius: 12px;
+	     h2 {
+		 color: BurlyWood;
+		 font-family: "Bebas Neue", sans-serif;
+		 }
+		 p {
+		 color: White;
+		 font-family: "Bebas Neue", sans-serif;
+		 }
+		 
+		 a {
+		 text-decoration: none;
+		     button {
+			 background-color: BurlyWood;
+			 color: white;
+		     border: none;
+		     cursor: pointer;
+		     padding: 10px;
+		     display: inline-block;
+		     border-radius: 7px;
+		     font-family: "Bebas Neue", sans-serif;
+		     }
+		 }
+		 
+		 button:hover {
+	     background-color: white;
+	     color: BurlyWood;
+	     }
+	 }
+	 
+	 #categories {
+	 padding-top: 55px;
+	 padding-left: 97px;
+	 widht: 500px;
+	     ul {
+	         list-style-type: none;
+			 padding-left: 90px;
+	     }
+		 ul li {
+		     width: 200px;
+			 display: inline-block;
+			 padding: 20px;
+	     }
+	 
+	 }
+	 
+	 #categories {
+	     margin-bottom: 100px;
+	     h2 {
+		     color: teal;
+			 font-family: "Bebas Neue", sans-serif;
+		 }
+		 
+		 h3 {
+		     text-align: center;
+			 font-family: "Bebas Neue", sans-serif;
+		 }
+		 
+		 a {
+		     color: #b78160;
+			 text-decoration: none;
+		 }
+		 a:hover {
+		     color: BurlyWood;
+			 cursor: pointer;
+		 }
+		 
+		 p {
+		     color: teal;
+			 font-family: "Bebas Neue", sans-serif;
+			 text-align: center;
+		 }
+		 
+	 }
+	 
+	 #base {
+	     background-color: teal;
+		 overflow: hidden;
+		 height: 270px;
+		 }
+		 
+	     #logobase {
+		     float: left;
+			 width: 150px;
+			 margin-top: 55px;
+			 margin-left: 150px;
+		     img {
+			     width: 200px;
+			     height: 90px;
+			 }
+			 p {
+			     color: white;
+				 font-family: "Bebas Neue", sans-serif;
+				 width: 170px;
+				 font-size: 12px;
+				 margin-left: 30px;
+			 }
+		 }
+		 
+		 #menubase {
+			 margin-top: 55px;
+			 margin-left: 260px;
+			 align-items: center;
+			     ul {
+			     list-style-type: none;
+				 } 
+				 ul li {
+				 padding: 5px;
+				 display: block;
+				 font-family: "Bebas Neue", sans-serif;
+				 text-align: center;
+				 }
+				 a {
+				 color: white;
+				 text-decoration: none;
+				 }
+				 a:hover {
+				 color: BurlyWood;
+				 }
+		 }
+		 
+		 #contactus {
+		 float: right;
+		 margin-right: 170px;
+		 margin-top: 45px;
+		     ul {
+			     list-style-type: none;
+			 } 
+		     ul li {
+				 padding: 5px;
+				 font-family: "Bebas Neue", sans-serif;
+				 display: block;
+				 color: white;
+			 }
+		 h3 {
+		 color: white;
+		 font-family: "Bebas Neue", sans-serif;
+		 padding-left: 43px;
+		 }
+		 }
+		 
+	 .blocks {
+	     align-items: center;
+	     display: inline-block; 
+	 }
+	 
+	 #copyright {
+	     color: white;
+		 font-family: "Bebas Neue", sans-serif;
+		 font-size: 11px;
+		 margin-top: 50px;
+		 margin-bottom: 10px;
+		 padding-left: 540px;
+	 }
+	 
+	 
+</style>
+
+
+<body>
+
+<header>
+<section id="header">
+     <img src="logo.png" id="logo">
+<nav id="menu">
+    <ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="shop.html">Shop</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="about.html">About Us</a></li>
+	</ul>
+</nav>
+
+<div id="icons">
+     <ul>
+	     <li><a href="login.html"><img src="profile.png"></i></a></li>
+		 <li><a href><img src="fav.png"></a></li>
+		 <li><a href><img src="cart.png"></a></li>
+	 </ul>
+</div>
+
+</section>
+</header>
+
+<main>
+<section id="cover">
+<img src="cover.png" alt="cover image">
+     <div id="clickbuy">
+	     <h2>JOIN THE FAMILY</h2>
+		 <p>Start looking for your new <b>literary adventure</b></p>
+		 <a href="createaccount.html"><button><b>CREATE ACCOUNT</b></button></a>
+	 </div>
+</section>
+
+<section id="categories">
+<h2>Explore our <b>TOP</b> Categories</h2>
+     <ul>
+	     <li>
+	     <h3><a href="YoungAdult.html">Young Adult</a></h3>
+		 <p>Coming-of-age stories, bold adventures, and voices that resonate at any age.</p>
+		 </li>
+	 
+	     <li>
+	     <h3><a href="Classics.html">Classics</a></h3>
+		 <p>Timeless tales that have shaped literature and continue to inspire readers.</p>
+	     </li>
+	 
+	     <li>
+	     <h3><a href="Nonfiction.html">Nonfiction</a></h3>
+		 <p>True stories, fresh perspectives, and ideas that expand the mind.</p>
+	     </li>
+	 
+	     <li>
+	     <h3><a href="Textbooks.html">Textbooks</a></h3>
+		 <p>Trusted resources for learning, studying, and building knowledge.</p>
+	     </li>
+	 </ul>
+</section>
+</main>
+
+<footer>
+<section id="base">
+     <div class="blocks" id="logobase">
+	     <img src="logo.png" alt="logo">
+		 <p>Your next favorite read is one click away</p>
+	 </div>
+	 
+	 <div class="blocks" id="menubase">
+	     <ul id="basemenu">
+		     <li><a href="shop.html">Shop</a></li>
+		     <li><a href="events.html">Events</a></li>
+		     <li><a href="about.html">About Us</a></li>
+			 <li><a href="apply.html">Work With Us</a></li>
+		 </ul>
+	 </div>
+	 
+	 <address class="blocks" id="contactus">
+	     <h3>Contact us</h3>
+		 <ul>
+		     <li><em>pbparlorbooks@email.com</em></li>
+			 <li><b>+351</b> <em>973-450-773</em></li>
+			 <li><b>@pbparlorbooks</b><li>
+		 </ul>
+	 </address>
+	 <p id="copyright">&#169; 2026 Paperback Parlor All Rights Reserved</p>
+</section>
+</footer>
+ 
+</body>
+
+</html>

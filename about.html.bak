@@ -1,0 +1,292 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Paperback Parlor</title>
+</head>
+<style>
+     body {
+	 background-color: White;
+	 margin: 0;
+	 padding: 0;
+	 }
+	 
+     #header {
+	     background-color: Teal;
+		 height: 45px;
+		 overflow: hidden;
+	     #logo {
+		     float: left;
+			 width: 90px;
+			 height: 35px;
+			 margin-top: 5px;
+			 margin-bottom: 5px;
+			 margin-left: 45px;
+		 }
+		 
+		 #menu {
+		 padding-left: 490px;
+		 position: absolute;
+		 
+	     a:hover {
+	         color: #b78160;
+	     }
+	 
+	     ul {
+	         list-style-type: none;
+		     overflow: hidden;
+		 }
+		 
+	     ul li {
+		     font-family: "Bebas Neue", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+			 display: inline;
+	     }
+		 
+	     ul li a {
+		     text-decoration: none;
+		     text-align: center;
+		     padding: 14px 16px;
+		     color: white;
+			 cursor: pointer;
+	     }
+		 }
+ 
+		 #icons {
+		     height: 45px;
+		     margin-right: 45px;
+		     margin-top: 0;
+		     float: right;
+			 display: flex;
+             justify-content: center;
+             align-items: center;
+
+		 ul {
+	         list-style-type: none;
+		     overflow: hidden;
+			 }
+			 
+		 ul li {
+		 display: inline;
+		 padding: 15px 15px;
+		 }
+			 
+		 img {
+		     width: 22px;
+			 height: 22px;
+		     }
+		 
+		 }
+	 }
+	 
+	 h1 {
+	     font-family: "Bebas Neue", sans-serif;
+		 font-size: 40px;
+		 padding-top: 50px;
+		 padding-left: 200px;
+		 color: #b78160;
+	 }
+	 
+
+	 p {
+	     font-family: "Bebas Neue", sans-serif;
+		 padding-left: 200px;
+		 color: teal;
+		 width: 920px;
+		 text-align: justify;
+         text-justify: inter-word;
+	 }
+	 
+	 main {
+	 margin-bottom: 300px;
+	     img {
+		     float: right;
+			 margin-right: 215px;
+			 width: 200px;
+			 height: 110px;
+		 }
+	 }
+	 
+	 
+	 #base {
+	     background-color: teal;
+		 overflow: hidden;
+		 height: 270px;
+		 }
+		 
+	     #logobase {
+		     float: left;
+			 width: 150px;
+			 margin-top: 55px;
+			 margin-left: 150px;
+		     img {
+			     width: 200px;
+			     height: 90px;
+			 }
+			 p {
+			     color: white;
+				 font-family: "Bebas Neue", sans-serif;
+				 width: 170px;
+				 font-size: 12px;
+				 margin-left: 30px;
+			 }
+		 }
+		 
+		 #menubase {
+			 margin-top: 55px;
+			 margin-left: 260px;
+			 align-items: center;
+			     ul {
+			     list-style-type: none;
+				 } 
+				 ul li {
+				 padding: 5px;
+				 display: block;
+				 font-family: "Bebas Neue", sans-serif;
+				 text-align: center;
+				 }
+				 a {
+				 color: white;
+				 text-decoration: none;
+				 }
+				 a:hover {
+				 color: BurlyWood;
+				 }
+		 }
+		 
+		 #contactus {
+		 float: right;
+		 margin-right: 170px;
+		 margin-top: 45px;
+		     ul {
+			     list-style-type: none;
+			 } 
+		     ul li {
+				 padding: 5px;
+				 font-family: "Bebas Neue", sans-serif;
+				 display: block;
+				 color: white;
+			 }
+		 h3 {
+		 color: white;
+		 font-family: "Bebas Neue", sans-serif;
+		 padding-left: 43px;
+		 }
+		 }
+		 
+	 .blocks {
+	     align-items: center;
+	     display: inline-block; 
+	 }
+	 
+	 #copyright {
+	     color: white;
+		 font-family: "Bebas Neue", sans-serif;
+		 font-size: 11px;
+		 margin-top: 50px;
+		 margin-bottom: 10px;
+		 padding-left: 540px;
+	 }
+	 
+	 
+</style>
+
+
+<body>
+
+<header>
+<section id="header">
+     <img src="logo.png" id="logo">
+<nav id="menu">
+    <ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="shop.html">Shop</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="about.html">About Us</a></li>
+	</ul>
+</nav>
+
+<div id="icons">
+     <ul>
+	     <li><a href><img src="profile.png"></a></li>
+		 <li><a href><img src="fav.png"></a></li>
+		 <li><a href><img src="cart.png"></a></li>
+	 </ul>
+</div>
+
+</section>
+</header>
+
+<main>
+<section id="text">
+     <h1>About Us</h1>
+	 <p>Welcome to <span style="color:#b78160"><b>Paperback Parlor</b></span>, a cozy corner 
+	 built on the belief that stories have the power to bring people together. Our mission is 
+	 to create a vibrant gathering place where neighbors can connect, ideas can flourish, and
+	 everyone feels at home. More than just shelves filled with books, <em>we are a shared
+	 space where conversations begin, friendships grow, and community spirit thrives</em>.</p>
+
+     <p>At the heart of our store is a commitment to <em>strengthening our local community’s
+	 reading habits</em>. We believe that reading inspires imagination, builds empathy, and 
+	 opens doors to new perspectives. Through curated collections, engaging book clubs, 
+	 author events, and youth reading programs, <em>we aim to nurture a lifelong love of learning
+	 for readers of all ages and backgrounds</em>.</p>
+
+     <p>We are proud to provide a <b>safe and welcoming environment for everyone</b> who walks through
+	 our doors. Whether you are here to study, explore new genres, attend an event, or simply
+	 enjoy a quiet moment, <em>our space is designed to make you feel respected and valued</em>. We strive
+	 to maintain an atmosphere of <b>kindness, openness, and mutual respect</b> where every voice matters.</p>
+
+     <p>Our core values guide everything we do. <span style="color:#b78160"><b>Inclusion</b></span> ensures
+	 that all individuals feel welcomed and represented. <span style="color:#b78160"><b>Diversity</b></span>
+	 celebrates the richness of different cultures, identities, and perspectives within our community. 
+	 <span style="color:#b78160"><b>Accessibility</b></span> means making literature, resources, and events
+	 available to everyone, regardless of background or ability. <span style="color:#b78160"><b>Community</b></span>
+	 reflects our dedication to building meaningful local connections. <span style="color:#b78160"><b>Lifelong Learning</b></span>
+	 drives our passion for encouraging curiosity and personal growth at every stage of life.</p>
+
+     <p>As we continue to grow, our goal remains simple:<span style="color:#b78160"><b> to be more than a bookstore</b></span>
+	 - to be a <em>cornerstone of connection, creativity, and compassion in our neighborhood</em>. Together, we 
+	 can turn pages, share stories, and shape a stronger, more united community.</p>
+     <img src="logocontrast.png">
+</section>
+
+
+
+</main>
+
+
+
+
+
+<footer>
+<section id="base">
+     <div class="blocks" id="logobase">
+	     <img src="logo.png" alt="logo">
+		 <p>Your next favorite read is one click away</p>
+	 </div>
+	 
+	 <div class="blocks" id="menubase">
+	     <ul id="basemenu">
+		     <li><a href="shop.html">Shop</a></li>
+		     <li><a href="events.html">Events</a></li>
+		     <li><a href="about.html">About Us</a></li>
+			 <li><a href="apply.html">Work With Us</a></li>
+		 </ul>
+	 </div>
+	 
+	 <address class="blocks" id="contactus">
+	     <h3>Contact us</h3>
+		 <ul>
+		     <li><em>pbparlorbooks@email.com</em></li>
+			 <li><b>+351</b> <em>973-450-773</em></li>
+			 <li><b>@pbparlorbooks</b><li>
+		 </ul>
+	 </address>
+	 <p id="copyright">&#169; 2026 Paperback Parlor All Rights Reserved</p>
+</section>
+</footer>
+ 
+</body>
+
+</html>

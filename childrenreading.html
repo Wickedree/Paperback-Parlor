@@ -1,0 +1,336 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Paperback Parlor</title>
+</head>
+<style>
+     body {
+	 background-color: White;
+	 margin: 0;
+	 padding: 0;
+	 }
+	 
+     #header {
+	     background-color: Teal;
+		 height: 45px;
+		 overflow: hidden;
+	     #logo {
+		     float: left;
+			 width: 90px;
+			 height: 35px;
+			 margin-top: 5px;
+			 margin-bottom: 5px;
+			 margin-left: 45px;
+		 }
+		 
+		 #menu {
+		 padding-left: 490px;
+		 position: absolute;
+		 
+	     a:hover {
+	         color: #b78160;
+	     }
+	 
+	     ul {
+	         list-style-type: none;
+		     overflow: hidden;
+		 }
+		 
+	     ul li {
+		     font-family: "Bebas Neue", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+			 display: inline;
+	     }
+		 
+	     ul li a {
+		     text-decoration: none;
+		     text-align: center;
+		     padding: 14px 16px;
+		     color: white;
+			 cursor: pointer;
+	     }
+		 }
+ 
+		 #icons {
+		     height: 45px;
+		     margin-right: 45px;
+		     margin-top: 0;
+		     float: right;
+			 display: flex;
+             justify-content: center;
+             align-items: center;
+
+		 ul {
+	         list-style-type: none;
+		     overflow: hidden;
+			 }
+			 
+		 ul li {
+		 display: inline;
+		 padding: 15px 15px;
+		 }
+			 
+		 img {
+		     width: 22px;
+			 height: 22px;
+		     }
+		 
+		 }
+	 }
+	 
+	 #goback {
+	 color: grey;
+	 font-family: "Bebas Neue", sans-serif;
+	 font-size: 12px;
+	     a {
+		 text-decoration: none;
+		 color: teal;
+		 font-family: "Bebas Neue", sans-serif;
+		 }
+		 a:hover {
+		 color: #b78160;
+		 }
+	 }
+	 
+	 #titledate {
+	     width: 400px;
+		 float: right;
+	      h1 {
+	         font-family: "Bebas Neue", sans-serif;
+		     font-size: 40px;
+		     color: #b78160;
+			 width: 100px;
+			 padding-left: 20px;
+	         }
+	 }
+	 
+	 #date {
+	     font-family: "Bebas Neue", sans-serif;
+		 font-size: 20px;
+		 color: gray;
+	     padding-left: 20px;
+	 }
+	 
+	 #info {
+	     font-family: "Bebas Neue", sans-serif;
+		 font-size: 12px;
+		 color: gray;
+	     padding-left: 20px;
+	 }
+	 
+	 
+	 article {
+	     width: 800px;
+		 height: 700px;
+		 margin: 0 auto;
+		 padding-top: 40px;
+		 overflow: hidden;
+	 }
+	 
+	 #image {
+	     float: left;
+		 margin-top: 15px;
+		     img {
+			 width: 400px;
+	         height: 250px;
+			 }
+	 }
+	 
+	 #body {
+	 width: 800px;
+	 height: 300px;
+	 color: teal;
+	 overflow: hidden;
+	 padding-top: 20px;
+	 padding-right: 40px;
+	 text-align: justify;
+     text-justify: inter-word;
+	 }
+	 
+	 #base {
+	     background-color: teal;
+		 overflow: hidden;
+		 height: 270px;
+		 }
+		 
+	     #logobase {
+		     float: left;
+			 width: 150px;
+			 margin-top: 55px;
+			 margin-left: 150px;
+		     img {
+			     width: 200px;
+			     height: 90px;
+			 }
+			 p {
+			     color: white;
+				 font-family: "Bebas Neue", sans-serif;
+				 width: 170px;
+				 font-size: 12px;
+				 margin-left: 30px;
+			 }
+		 }
+		 
+		 #menubase {
+			 margin-top: 55px;
+			 margin-left: 260px;
+			 align-items: center;
+			     ul {
+			     list-style-type: none;
+				 } 
+				 ul li {
+				 padding: 5px;
+				 display: block;
+				 font-family: "Bebas Neue", sans-serif;
+				 text-align: center;
+				 }
+				 a {
+				 color: white;
+				 text-decoration: none;
+				 }
+				 a:hover {
+				 color: BurlyWood;
+				 }
+		 }
+		 
+		 #contactus {
+		 float: right;
+		 margin-right: 170px;
+		 margin-top: 45px;
+		     ul {
+			     list-style-type: none;
+			 } 
+		     ul li {
+				 padding: 5px;
+				 font-family: "Bebas Neue", sans-serif;
+				 display: block;
+				 color: white;
+			 }
+		 h3 {
+		 color: white;
+		 font-family: "Bebas Neue", sans-serif;
+		 padding-left: 43px;
+		 }
+		 }
+		 
+	 .blocks {
+	     align-items: center;
+	     display: inline-block; 
+	 }
+	 
+	 #copyright {
+	     color: white;
+		 font-family: "Bebas Neue", sans-serif;
+		 font-size: 11px;
+		 margin-top: 50px;
+		 margin-bottom: 10px;
+		 padding-left: 540px;
+	 }
+	 
+	 
+</style>
+
+
+<body>
+
+<header>
+<section id="header">
+     <img src="logo.png" id="logo">
+<nav id="menu">
+    <ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="shop.html">Shop</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="about.html">About Us</a></li>
+	</ul>
+</nav>
+
+<div id="icons">
+     <ul>
+	     <li><a href><img src="profile.png"></a></li>
+		 <li><a href><img src="fav.png"></a></li>
+		 <li><a href><img src="cart.png"></a></li>
+	 </ul>
+</div>
+
+</section>
+</header>
+
+<main>
+	 <article>
+	 <nav id="goback">
+	 <p><a href="events.html">Events</a>&nbsp > Children's reading circle </p>
+	 </nav>
+	 <div id="titledate">
+	     <h1>CHILDREN'S READING CIRCLE</h1>
+	         <div id="date"><time datetime="2026-03-13T17:00">
+		     <p>MARCH 13th 5 p.m </p>
+		     </time>
+	         </div>
+			 
+		     <div id="info">
+	             <p>PRICE: FREE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LOCATION: Paperback Parlor</p>
+	         </div>
+	 </div>
+
+     <div id="image">
+	 <img src="bookreading.jpg">
+	 </div>
+	 
+	 <div id="body">
+	 <p>Bring your little ones (ages 4–7) for a delightful children’s
+	 book reading hosted here in the Paperback Parlor! This cozy space
+	 is the perfect setting for young imaginations to flourish, offering
+	 a warm and welcoming environment where kids can relax, listen, and let
+	 their creativity bloom. The event is designed to be engaging and gentle,
+	 making it ideal for early readers and curious minds alike.</p>
+
+     <p>This special session will be led by the lovely kindergarten teacher Maura Jones,
+	 who brings stories to life with a wonderful blend of warmth, expression, and imagination.
+	 Her storytelling style invites children into each tale, encouraging them to connect with 
+	 characters and explore new ideas. It’s more than just a reading; it’s an interactive experience
+	 that nurtures curiosity.</p>
+
+     <p>Whether your child is already a book lover or just beginning to discover the magic of stories,
+	 this event offers a wonderful opportunity to spark a lifelong love of reading. Join us for a charming
+	 literary moment that is sure to leave young hearts inspired and eager for more adventures on the page.</p>
+	 </div>
+	 
+	 </article>
+	 
+
+</main>
+
+
+<footer>
+<section id="base">
+     <div class="blocks" id="logobase">
+	     <img src="logo.png" alt="logo">
+		 <p>Your next favorite read is one click away</p>
+	 </div>
+	 
+	 <div class="blocks" id="menubase">
+	     <ul id="basemenu">
+		     <li><a href="shop.html">Shop</a></li>
+		     <li><a href="events.html">Events</a></li>
+		     <li><a href="about.html">About Us</a></li>
+			 <li><a href="apply.html">Work With Us</a></li>
+		 </ul>
+	 </div>
+	 
+	 <address class="blocks" id="contactus">
+	     <h3>Contact us</h3>
+		 <ul>
+		     <li><em>pbparlorbooks@email.com</em></li>
+			 <li><b>+351</b> <em>973-450-773</em></li>
+			 <li><b>@pbparlorbooks</b><li>
+		 </ul>
+	 </address>
+	 <p id="copyright">&#169; 2026 Paperback Parlor All Rights Reserved</p>
+</section>
+</footer>
+ 
+</body>
+
+</html>

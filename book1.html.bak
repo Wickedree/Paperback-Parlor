@@ -1,0 +1,408 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PBP - The Hunger Games</title>
+</head>
+<style>
+     body {
+	 background-color: White;
+	 margin: 0;
+	 padding: 0;
+	 }
+	 
+     #header {
+	     background-color: Teal;
+		 height: 45px;
+		 overflow: hidden;
+	     #logo {
+		     float: left;
+			 width: 90px;
+			 height: 35px;
+			 margin-top: 5px;
+			 margin-bottom: 5px;
+			 margin-left: 45px;
+		 }
+		 
+		 #menu {
+		 padding-left: 490px;
+		 position: absolute;
+		 
+	     a:hover {
+	         color: #b78160;
+	     }
+	 
+	     ul {
+	         list-style-type: none;
+		     overflow: hidden;
+		 }
+		 
+	     ul li {
+		     font-family: "Bebas Neue", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+			 display: inline;
+	     }
+		 
+	     ul li a {
+		     text-decoration: none;
+		     text-align: center;
+		     padding: 14px 16px;
+		     color: white;
+			 cursor: pointer;
+	     }
+		 }
+ 
+		 #icons {
+		     height: 45px;
+		     margin-right: 45px;
+		     margin-top: 0;
+		     float: right;
+			 display: flex;
+             justify-content: center;
+             align-items: center;
+
+		 ul {
+	         list-style-type: none;
+		     overflow: hidden;
+			 }
+			 
+		 ul li {
+		 display: inline;
+		 padding: 15px 15px;
+		 }
+			 
+		 img {
+		     width: 22px;
+			 height: 22px;
+		     }
+		 
+		 }
+	 }
+	 
+	 h1 {
+	     font-family: "Bebas Neue", sans-serif;
+		 font-size: 40px;
+		 color: #b78160;
+	 }
+	 
+	 
+     #bookinfo {
+	 width: 900px;
+	 height: 500px;
+	 margin-left: 250px;
+	 overflow: hidden;
+	 }
+	 
+	 #author {
+	 font-size: 20px;
+	 color: grey;
+	 }
+	 
+	 #leftbox {
+	 width: 500px;
+	 height: 400px;
+	 overflow: hidden;
+	 float: left;
+	 margin-top: 70px;
+	 margin-left: 40px;
+	     a {
+		 color: BurlyWood;
+		 text-decoration: none;
+		 }
+		 
+		 a:hover{
+		 color: #b78160;
+		 }
+	 }
+	 
+	 #price {
+	 float: left;
+	 font-size: 40px;
+	 margin-top: 5px;
+	 color: grey;
+	 }
+	 
+	 
+	 #buttons {
+	 float: right;
+	     button {
+		 margin: 10px;
+		 padding: 10px;
+		 background-color: BurlyWood;
+	     color: white;
+		 border: none;
+		 cursor: pointer;
+		 border-radius: 7px;
+		 font-family: "Bebas Neue", sans-serif;
+		 }
+		 
+		 button:hover {
+		 background-color: #b78160;
+	     color: BurlyWood;
+		 }
+	 }
+	 
+	 #sinopsis {
+	 font-size: 14px;
+	 color: teal;
+	 text-align: justify;
+     text-justify: inter-word;
+	 }
+	 
+	 #bookcover {
+	 float: right;
+	 margin-top: 50px;
+	 margin-right: 40px;
+	 }
+	 
+	 h2 {
+	 margin-top: 50px;
+	 color: #b78160;
+	 margin-left: 200px;
+	 font-family: "Bebas Neue", sans-serif;
+	 }
+	 
+	 #similarbooks {
+	 width: 1200px;
+	 align-items: center;
+	 padding-left: 150px;
+	 margin-bottom: 250px;
+	     div {
+	     display: inline-block;
+		 margin-left: 30px;
+		 marging-right: 30px;
+		 }
+	 }
+     
+	 .bookbox {
+	 padding: 20px;
+	 border-style: solid;
+	 border-color: white;
+	     img {
+		     width: 180px;
+			 height: 280px;
+		 }
+	 }
+	 
+	 .bookbox:hover {
+		  border-style: solid;
+          border-color: teal;
+		 }
+	 
+	 
+	 #booktitle {
+	 color:#b78160;
+	 }
+	 
+	 #author2 {
+	 margin-top: 10px;
+	 color: teal;
+	 }
+	 
+	 #price2 {
+	 color: gray;
+	 }
+	 
+	 #base {
+	     background-color: teal;
+		 overflow: hidden;
+		 height: 270px;
+		 }
+		 
+	     #logobase {
+		     float: left;
+			 width: 150px;
+			 margin-top: 55px;
+			 margin-left: 150px;
+		     img {
+			     width: 200px;
+			     height: 90px;
+			 }
+			 p {
+			     color: white;
+				 font-family: "Bebas Neue", sans-serif;
+				 width: 170px;
+				 font-size: 12px;
+				 margin-left: 30px;
+			 }
+		 }
+		 
+		 #menubase {
+			 margin-top: 55px;
+			 margin-left: 260px;
+			 align-items: center;
+			     ul {
+			     list-style-type: none;
+				 } 
+				 ul li {
+				 padding: 5px;
+				 display: block;
+				 font-family: "Bebas Neue", sans-serif;
+				 text-align: center;
+				 }
+				 a {
+				 color: white;
+				 text-decoration: none;
+				 }
+				 a:hover {
+				 color: BurlyWood;
+				 }
+		 }
+		 
+		 #contactus {
+		 float: right;
+		 margin-right: 170px;
+		 margin-top: 45px;
+		     ul {
+			     list-style-type: none;
+			 } 
+		     ul li {
+				 padding: 5px;
+				 font-family: "Bebas Neue", sans-serif;
+				 display: block;
+				 color: white;
+			 }
+		 h3 {
+		 color: white;
+		 font-family: "Bebas Neue", sans-serif;
+		 padding-left: 43px;
+		 }
+		 }
+		 
+	 .blocks {
+	     align-items: center;
+	     display: inline-block; 
+	 }
+	 
+	 #copyright {
+	     color: white;
+		 font-family: "Bebas Neue", sans-serif;
+		 font-size: 11px;
+		 margin-top: 50px;
+		 margin-bottom: 10px;
+		 padding-left: 540px;
+	 }
+	 
+	 
+</style>
+
+
+<body>
+
+<header>
+<section id="header">
+     <img src="logo.png" id="logo">
+<nav id="menu">
+    <ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="shop.html">Shop</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="about.html">About Us</a></li>
+	</ul>
+</nav>
+
+<div id="icons">
+     <ul>
+	     <li><a href><img src="profile.png"></a></li>
+		 <li><a href><img src="fav.png"></a></li>
+		 <li><a href><img src="cart.png"></a></li>
+	 </ul>
+</div>
+
+</section>
+</header>
+
+<main>
+	 <section id="bookinfo">
+	 <div id="leftbox">
+	     <a href="shop.html">Back to Shop</a>
+	     <h1>The Hunger Games</h1>
+		 <p id="author">Suzanne Collins</p>
+		 <p id="sinopsis">In a dystopian, post-apocalyptic nation of Panem, 
+		 the ruthless Capitol controls twelve districts by forcing
+		 them to send one boy and one girl, aged 12-18, to compete in 
+		 a televised, mandatory fight-to-the-death called the Hunger Games. 
+		 Sixteen-year-old Katniss Everdeen volunteers to replace her younger 
+		 sister, Primrose, in the 74th annual games.</p>
+		 
+		 <div>
+	         <p id="price">19.99€</p>
+	     </div>
+	 
+	     <div id="buttons">
+	         <button>Add to Cart</button>
+	         <button>Favourite</button>
+	     </div>
+	 </div>
+	 
+	 <img id="bookcover" src="thgcover.jpg">
+	 
+	 </section>
+	 <section>
+	     <h2>Similar Books</h2>
+		     <section id="similarbooks">
+			     <a href=""><div class="bookbox">
+		             <img src="cfcover.jpg">
+			         <p id="booktitle">CATCHING FIRE</p>
+			         <p id="author2">Suzanne Collins</p>
+			         <p id="price2">19.99€</p>
+		         </div></a>
+		 
+		 
+		         <a href=""><div class="bookbox">
+		             <img src="book.jpg">
+			         <p id="booktitle">BOOK TITLE</p>
+			         <p id="author2">Author</p>
+			         <p id="price2">Price</p>
+		         </div></a>
+		 
+		         <a href=""><div class="bookbox">
+		             <img src="book.jpg">
+			         <p id="booktitle">BOOK TITLE</p>
+			         <p id="author2">Author</p>
+			         <p id="price2">Price</p>
+		         </div></a>
+		 
+		 
+		         <a href=""><div class="bookbox">
+		             <img src="book.jpg">
+			         <p id="booktitle">BOOK TITLE</p>
+			         <p id="author2">Author</p>
+			         <p id="price2">Price</p>
+		         </div></a>
+			 </section>
+	 </section>
+</main>
+
+
+<footer>
+<section id="base">
+     <div class="blocks" id="logobase">
+	     <img src="logo.png" alt="logo">
+		 <p>Your next favorite read is one click away</p>
+	 </div>
+	 
+	 <div class="blocks" id="menubase">
+	     <ul id="basemenu">
+		     <li><a href="shop.html">Shop</a></li>
+		     <li><a href="events.html">Events</a></li>
+		     <li><a href="about.html">About Us</a></li>
+			 <li><a href="apply.html">Work With Us</a></li>
+		 </ul>
+	 </div>
+	 
+	 <address class="blocks" id="contactus">
+	     <h3>Contact us</h3>
+		 <ul>
+		     <li><em>pbparlorbooks@email.com</em></li>
+			 <li><b>+351</b> <em>973-450-773</em></li>
+			 <li><b>@pbparlorbooks</b><li>
+		 </ul>
+	 </address>
+	 <p id="copyright">&#169; 2026 Paperback Parlor All Rights Reserved</p>
+</section>
+</footer>
+ 
+</body>
+
+</html>

@@ -1,0 +1,401 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Paperback Parlor</title>
+</head>
+<style>
+     body {
+	 background-color: White;
+	 margin: 0;
+	 padding: 0;
+	 }
+	 
+     #header {
+	     background-color: Teal;
+		 height: 45px;
+		 overflow: hidden;
+	     #logo {
+		     float: left;
+			 width: 90px;
+			 height: 35px;
+			 margin-top: 5px;
+			 margin-bottom: 5px;
+			 margin-left: 45px;
+		 }
+		 
+		 #menu {
+		 padding-left: 490px;
+		 position: absolute;
+		 
+	     a:hover {
+	         color: #b78160;
+	     }
+	 
+	     ul {
+	         list-style-type: none;
+		     overflow: hidden;
+		 }
+		 
+	     ul li {
+		     font-family: "Bebas Neue", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+			 display: inline;
+	     }
+		 
+	     ul li a {
+		     text-decoration: none;
+		     text-align: center;
+		     padding: 14px 16px;
+		     color: white;
+			 cursor: pointer;
+	     }
+		 }
+ 
+		 #icons {
+		     height: 45px;
+		     margin-right: 45px;
+		     margin-top: 0;
+		     float: right;
+			 display: flex;
+             justify-content: center;
+             align-items: center;
+
+		 ul {
+	         list-style-type: none;
+		     overflow: hidden;
+			 }
+			 
+		 ul li {
+		 display: inline;
+		 padding: 15px 15px;
+		 }
+			 
+		 img {
+		     width: 22px;
+			 height: 22px;
+		     }
+		 
+		 }
+	 }
+	 
+	 h1 {
+	     font-family: "Bebas Neue", sans-serif;
+		 margin: 0 auto;
+	     text-align: center;
+		 font-size: 40px;
+		 width: 600px;
+		 padding-top: 70px;
+		 padding-bottom: 50px;
+		 color: #b78160;
+	 }
+	 
+	 .sections {
+	 width: 1200px;
+	 height: 400px;
+	 padding-left: 150px;
+	     h2 {
+		     color: teal;
+			 font-family: "Bebas Neue", sans-serif;
+		 }
+		 p {
+		 color: Teal;
+		 font-size: 60px;
+		 width: 400px;
+		 margin: 0;
+		 }
+	 }
+	 
+	 #genresboxes {
+	     div {
+	     display: inline-block;
+		 overflow: hidden;
+		 }
+		 
+		 a {
+		 color: white;
+		 text-decoration: none;
+		 }
+		 a:hover {
+		 color: #b78160;
+		 }
+		 div:hover {
+		 background-color: FloralWhite;
+		 }
+	 }
+	 
+	 
+	 .box {
+	     background-color: teal;
+	     width: 200px;
+		 height: 100px;
+		 h3 {
+		     text-align: center;
+			 padding-top: 20px;
+		 }
+	 }
+	 
+	 #section2 {
+	     margin-bottom: 300px;
+	 }
+	 
+	 .authors {
+	     width: 500px;
+		 height: 400px;
+		 padding-left: 50px;
+		 display: inline-block;
+		 overflow: hidden;
+		 img {
+		 width: 100%;
+		 }
+	 }
+	 
+	 #searchbar {
+	 padding-left: 5px;
+	     button {
+		     background-color: BurlyWood;
+			 color: white;
+		     border: none;
+		     cursor: pointer;
+		     padding: 5px;
+			 border-radius: 7px;
+		     font-family: "Bebas Neue", sans-serif;
+		 }
+		 button:hover {
+	     background-color: BlanchedAlmond;
+	     color: BurlyWood;
+	     }
+	 }
+	 
+	 #site-search {
+	 width: 250px;
+	 border-style: solid;
+	 border-color: teal;
+	 padding: 5px;
+	 border-radius: 7px;
+	 }
+	 
+	 #site-search:focus {
+	 outline-color:BurlyWood; 
+	 }
+	 
+	 ::placeholder {
+	 color: BurlyWood;
+	 }
+	 
+	 
+	 #base {
+	     background-color: teal;
+		 overflow: hidden;
+		 height: 270px;
+		 }
+		 
+	     #logobase {
+		     float: left;
+			 width: 150px;
+			 margin-top: 55px;
+			 margin-left: 150px;
+		     img {
+			     width: 200px;
+			     height: 90px;
+			 }
+			 p {
+			     color: white;
+				 font-family: "Bebas Neue", sans-serif;
+				 width: 170px;
+				 font-size: 12px;
+				 margin-left: 30px;
+			 }
+		 }
+		 
+		 #menubase {
+			 margin-top: 55px;
+			 margin-left: 260px;
+			 align-items: center;
+			     ul {
+			     list-style-type: none;
+				 } 
+				 ul li {
+				 padding: 5px;
+				 display: block;
+				 font-family: "Bebas Neue", sans-serif;
+				 text-align: center;
+				 }
+				 a {
+				 color: white;
+				 text-decoration: none;
+				 }
+				 a:hover {
+				 color: BurlyWood;
+				 }
+		 }
+		 
+		 #contactus {
+		 float: right;
+		 margin-right: 170px;
+		 margin-top: 45px;
+		     ul {
+			     list-style-type: none;
+			 } 
+		     ul li {
+				 padding: 5px;
+				 font-family: "Bebas Neue", sans-serif;
+				 display: block;
+				 color: white;
+			 }
+		 h3 {
+		 color: white;
+		 font-family: "Bebas Neue", sans-serif;
+		 padding-left: 43px;
+		 }
+		 }
+		 
+	 .blocks {
+	     align-items: center;
+	     display: inline-block; 
+	 }
+	 
+	 #copyright {
+	     color: white;
+		 font-family: "Bebas Neue", sans-serif;
+		 font-size: 11px;
+		 margin-top: 50px;
+		 margin-bottom: 10px;
+		 padding-left: 540px;
+	 }
+	 
+	 
+</style>
+
+
+<body>
+
+<header>
+<section id="header">
+     <img src="logo.png" id="logo">
+<nav id="menu">
+    <ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="shop.html">Shop</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="about.html">About Us</a></li>
+	</ul>
+</nav>
+
+<div id="icons">
+     <ul>
+	     <li><a href><img src="profile.png"></a></li>
+		 <li><a href><img src="fav.png"></a></li>
+		 <li><a href><img src="cart.png"></a></li>
+	 </ul>
+</div>
+
+</section>
+</header>
+
+<main>
+     <h1>BROWSE OUR COLLECTION OF AMAZING BOOKS</h1>
+	 <section class="sections">
+	     <h2>Genres</h2>
+	         <div id="genresboxes">
+			     <a href="Biographies.html">
+			     <div class="box">
+				     <h3>Biographies</h3>
+				 </div>
+				 </a>
+				 <a href="Fiction.html">
+				 <div class="box">
+				     <h3>Fiction</h3>
+				 </div>
+				 </a>
+				 <a href="YoungAdult.html">
+				 <div class="box">
+				     <h3>Young Adult</h3>
+				 </div>
+				 </a>
+				 <a href="Textbooks.html">
+				 <div class="box">
+				     <h3>Textbooks</h3>
+				 </div>
+				 </a>
+				 <a href="Classics.html">
+				 <div class="box">
+				     <h3>Classics</h3>
+				 </div>
+				 </a>
+				 <a href="Nonfiction.html">
+				 <div class="box">
+				     <h3>Nonfiction</h3>
+				 </div>
+				 </a>
+				 <a href>
+				 <div class="box">
+				     <h3>Dark</h3>
+				 </div>
+				 </a>
+				 <a href>
+				 <div class="box">
+				     <h3>Romance</h3>
+				 </div>
+				 </a>
+				 <a href>
+				 <div class="box">
+				     <h3>Poetry</h3>
+				 </div>
+				 </a>
+				 <a href>
+				 <div class="box">
+				     <h3>Sci-fi</h3>
+				 </div>
+				 </a>
+	         </div>
+	 </section>
+	 
+	 <section id="section2" class="sections">
+	 
+	 <div class="authors">
+	     <img src="authors.png">
+	 </div>
+	 <div class="authors">
+	     <p>LOOKING FOR A SPECIFIC AUTHOR'S WORK?</p>
+	     <div id="searchbar">
+             <input type="search" id="site-search" name="q" placeholder="Search..." />
+             <button>Search</button>
+	     </div>
+	 </div>
+	 </section>
+
+</main>
+
+
+<footer>
+<section id="base">
+     <div class="blocks" id="logobase">
+	     <img src="logo.png" alt="logo">
+		 <p>Your next favorite read is one click away</p>
+	 </div>
+	 
+	 <div class="blocks" id="menubase">
+	     <ul id="basemenu">
+		     <li><a href="shop.html">Shop</a></li>
+		     <li><a href="events.html">Events</a></li>
+		     <li><a href="about.html">About Us</a></li>
+			 <li><a href="apply.html">Work With Us</a></li>
+		 </ul>
+	 </div>
+	 
+	 <address class="blocks" id="contactus">
+	     <h3>Contact us</h3>
+		 <ul>
+		     <li><em>pbparlorbooks@email.com</em></li>
+			 <li><b>+351</b> <em>973-450-773</em></li>
+			 <li><b>@pbparlorbooks</b><li>
+		 </ul>
+	 </address>
+	 <p id="copyright">&#169; 2026 Paperback Parlor All Rights Reserved</p>
+</section>
+</footer>
+ 
+</body>
+
+</html>
